@@ -3482,12 +3482,7 @@ break
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://1.bp.blogspot.com/-3K_b14RzHTA/XwTW7SQTPRI/AAAAAAAAPtY/UOaKURECbzwXfvASa3g6Pz0D_Ha73Dw4wCLcBGAsYHQ/s1600/boabronha_10.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'olha p isso mano, pqp '})
-					break
-        case 'fotodrinho2':
-				  memein = await kagApi.memeindo()
-					buffer = await getBuffer(`https://i.imgur.com/fHcFy8G.jpg`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'drinho fazendo pose 😏' '})
-					break
+					break 
 				case 'akeno':
 					meme = await kagApi.memes()
 					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnFAocqaur5ZX1DPN6ZGP8PJy2cNppas_gYA&usqp=CAU`)
